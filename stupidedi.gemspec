@@ -1,5 +1,4 @@
 require File.dirname(__FILE__) + "/lib/stupidedi/version"
-require "rake"
 
 Gem::Specification.new do |s|
   s.name        = "stupidedi"
