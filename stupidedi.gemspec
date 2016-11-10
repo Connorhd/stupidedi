@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.author  = "Kyle Putnam"
   s.email   = "putnam.kyle@gmail.com"
 
-  s.files             = %w(README.md Rakefile)
-                          + Dir.glob("bin/*")
-                          + Dir.glob("lib/**/*")
-                          + Dir.glob("doc/**/*.md")
-                          + Dir.glob("spec/**/*")
+  s.files             = %w(README.md Rakefile) +
+                          Dir.glob("bin/*") +
+                          Dir.glob("lib/**/*") +
+                          Dir.glob("doc/**/*.md") +
+                          Dir.glob("spec/**/*")
   s.test_files        = Dir.glob("spec/examples/**/*.example")
   s.has_rdoc          = false
   s.bindir            = "bin"
