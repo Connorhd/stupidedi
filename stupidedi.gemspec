@@ -12,11 +12,11 @@ Gem::Specification.new do |s|
   s.email   = "putnam.kyle@gmail.com"
 
   s.files             = %w(README.md Rakefile)
-                          + Dir["bin/*"]
-                          + Dir["lib/**/*"]
-                          + Dir["doc/**/*.md"]
-                          + Dir["spec/**/*"]
-  s.test_files        = Dir["spec/examples/**/*.example"]
+                          + Dir.glob("bin/*")
+                          + Dir.glob("lib/**/*")
+                          + Dir.glob("doc/**/*.md")
+                          + Dir.glob("spec/**/*")
+  s.test_files        = Dir.glob("spec/examples/**/*.example")
   s.has_rdoc          = false
   s.bindir            = "bin"
   s.executables       = ["edi-pp", "edi-ed"]
